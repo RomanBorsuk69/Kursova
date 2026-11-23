@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+    <servlet>
+        <servlet-name>SpecialistServlet</servlet-name>
+        <servlet-class>server.SpecialistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SpecialistServlet</servlet-name>
+        <url-pattern>/specialists</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EquipmentServlet</servlet-name>
+        <servlet-class>server.EquipmentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EquipmentServlet</servlet-name>
+        <url-pattern>/equipment</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServiceRequestServlet</servlet-name>
+        <servlet-class>server.ServiceRequestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServiceRequestServlet</servlet-name>
+        <url-pattern>/requests</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServiceRecordServlet</servlet-name>
+        <servlet-class>server.ServiceRecordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServiceRecordServlet</servlet-name>
+        <url-pattern>/records</url-pattern>
+    </servlet-mapping>
+</web-app>

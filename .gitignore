@@ -1,0 +1,12 @@
+target/
+*.war
+*.class
+*.log
+logs/
+
+.idea/
+*.iml
+.vscode/
+
+.env
+*.local.properties
